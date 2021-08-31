@@ -5,3 +5,12 @@
     margin: 0;
     padding: 0;
 }
+   
+@media (max-width: 767px) {
+    .footer__links{
+        display: flex;              
+        flex-direction:column;
+        justify-content: space-around;
+        padding-bottom: 48px;       
+    }
+}

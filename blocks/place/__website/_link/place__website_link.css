@@ -4,8 +4,12 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 18px;
     line-height: 122%;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+
+.place__website_link:hover{
+    opacity: 0.8;
 }

@@ -1,12 +1,16 @@
 .place__website_url-heading{
     margin: 0;
     padding: 0;
-    padding-bottom: 1.2em;
+    padding-bottom: 12px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.2em;
-    line-height: 100%;
-    letter-spacing: 0.2em;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 2px;
     color: #AAAAAA;
+}
+
+@media (max-width: 1023px){
+    line-height: 100%;
 }

@@ -1,7 +1,6 @@
 .page{
-    background-color: #2A2C2F;
-    font-size: 0.78125vw;
-    line-height: 0.78125vw;
-    max-width: 92.5%;
+    background-color: #2A2C2F;     
     margin: 0 auto;
+    max-width: 1280px;
+    min-width: 320px;
 }

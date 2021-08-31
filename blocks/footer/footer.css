@@ -1,7 +1,28 @@
 .footer{
-    margin: 0 auto 2.4em auto;
+    margin: 0 auto 24px auto;
     padding: 0;
-    max-width: 92vw;
+    max-width: 1184px;
+    min-width: 186px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1279px) {
+    .footer{        
+        width: 90.625%;    
+    }
+}
+    
+@media (max-width: 1023px){
+    .footer{    
+        width: 93.75%;         
+    }
+}
+    
+@media (max-width: 767px) {
+    .footer{
+        margin: 0 auto 24px 16px;        
+        width: 58.125%;         
+        flex-direction: column;        
+    }
 }
