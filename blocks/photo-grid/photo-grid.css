@@ -10,17 +10,14 @@
 
 @media (max-width: 1279px) {
     .photo-grid{
-        display: grid;
         grid-template-columns: repeat(3, minmax(300px, 1fr));    
         max-width: 90.625vw;
-        gap: 14px;
-            
+        gap: 14px;            
     }
 }
     
 @media (max-width: 1023px){
     .photo-grid{
-        display: grid;
         grid-template-columns: repeat(2, minmax(352px, 1fr));    
         max-width: 93.75vw;
         gap: 16px;
@@ -30,7 +27,6 @@
     
 @media (max-width: 767px) {
     .photo-grid{
-        display: grid;
         grid-template-columns: repeat(1, minmax(288px, 1fr));    
         max-width: 90vw;
         gap: 12px;

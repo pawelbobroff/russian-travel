@@ -20,7 +20,7 @@
     
 @media (max-width: 767px) {
     .places{
-        width: 100vw;
+        width: 100%;
         margin: 0 auto 66px;
     }
 }
