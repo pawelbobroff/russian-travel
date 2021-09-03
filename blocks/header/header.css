@@ -25,7 +25,7 @@
 @media (max-width: 767px) {
     .header{
         width: 90vw;
-        height: 42px;          
+        max-height: 42px;          
         padding: 16px 0 48px 0;        
     }
 }
