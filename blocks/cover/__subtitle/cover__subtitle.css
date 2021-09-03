@@ -8,8 +8,7 @@
     font-size: 18px;
     line-height: 122%;
     text-align: center;
-    color: #FFFFFF;
-    z-index: 3;
+    color: #FFFFFF;    
 }
   
 @media (max-width: 767px) {

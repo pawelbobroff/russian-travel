@@ -9,8 +9,7 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
-    color: #FFFFFF;
-    z-index: 3;
+    color: #FFFFFF;    
 }
 
 @media (max-width: 767px) {
